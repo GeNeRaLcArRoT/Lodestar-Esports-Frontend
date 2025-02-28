@@ -74,10 +74,10 @@
 }
 
 .teamcode {
-  font-family: Unbounded, Helvetica;
+  font-family: Tomorrow, ;
   font-weight: 800;
   color: #ffffff;
-  font-size: 20px;
+  font-size: 28px;
   font-style: normal;
   text-align: center;
   text-transform: uppercase;
@@ -87,7 +87,7 @@
 }
 
 .teamseeding {
-  font-family: "Montserrat", Helvetica;
+  font-family: "Tomorrow", ;
   font-weight: 800;
   color: #ffffff99;
   font-size: 10px;
@@ -143,7 +143,7 @@
   position: relative;
   width: fit-content;
   text-shadow: 0px 1.21px 4.83px rgba(0, 0, 0, 0.12);
-  font-family: "Montserrat", Helvetica;
+  font-family: "Tomorrow", ;
   font-weight: 700;
   color: #ffffff;
   font-size: 40px;
@@ -154,9 +154,9 @@
 }
 
 .round-number {
-  font-family: "Unbounded-Bold", Helvetica;
+  font-family: "Tomorrow", ;
   font-weight: 700;
-  color: #fefeff99;
+  color: #ffffffc2;
   font-size: 15px;
   text-align: center;
   letter-spacing: 0.39px;
@@ -205,7 +205,7 @@
   height: 7px;
   border-radius: 3px;
   border: 1.75px solid;
-  border-color: #ffffffaa;
+  border-color: #ffffff;
   &-full {
     @extend .mapwin-pip;
     background-color: #ffffff;

@@ -3,13 +3,13 @@ export class Config {
   sponsorImageUrls: string[] = [];
   sponsorImageRotateSpeed = 5000; // in milliseconds
 
-  attackerColorPrimary = "#b82e3c";
-  attackerColorSecondary = "#ff4557";
-  attackerColorShieldCurrency = "#ff838f";
+  attackerColorPrimary = "#dc052d";
+  attackerColorSecondary = "#dc052d";
+  attackerColorShieldCurrency = "#ffffff";
 
-  defenderColorPrimary = "#25ac79";
-  defenderColorSecondary = "#61eab6";
-  defenderColorShieldCurrency = "#61eab6";
+  defenderColorPrimary = "#00008B";
+  defenderColorSecondary = "#00008B";
+  defenderColorShieldCurrency = "#6a7cea";
 
   public constructor(init?: Partial<Config>) {
     Object.assign(this, init);

@@ -36,10 +36,10 @@
 .topinfo-pill-text {
   position: relative;
   width: fit-content;
-  font-family: Montserrat, Helvetica;
+  font-family: Tomorrow, ;
   font-weight: 800;
   color: #ffffff;
-  font-size: 14px;
+  font-size: 0px;
   font-style: normal;
   text-align: center;
   text-transform: uppercase;
@@ -50,7 +50,7 @@
 
 .sponsor-container {
   position: absolute;
-  width: 240px;
+  width: 0px;
   height: 88px;
   top: 0;
   left: 1680px;
@@ -58,11 +58,11 @@
 }
 
 .sponsor-logo {
-  position: absolute;
-  width: 156px;
+  position: relative;
+  width: 0px;
   height: 71px;
-  top: 11px;
-  left: 42px;
+  top: 8px;
+  left: 5px;
   object-fit: contain;
   transition: opacity 1s ease-in-out;
 }
